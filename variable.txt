@@ -1,0 +1,267 @@
+//pronos membres
+
+$q1t1             //quart de finaliste 1 tournoi 1
+
+$q2t1
+
+$q3t1
+
+$q4t1
+
+$d1t1
+
+$d2t1
+
+$f1t1
+
+$v1t1
+
+ 
+
+//résultats tournoi1
+
+$rq1t1            //résultat quart de finaliste 1 tournoi 1
+
+$rq2t1
+
+$rq3t1
+
+$rq4t1
+
+$rd1t1
+
+$rd2t1
+
+$rf1t1
+
+$rv1t1
+
+ 
+
+//points tournoi 1
+
+ptt1
+
+ 
+
+Variables aléatoires
+
+$calc1 = 0 ;
+
+$calc2 = 0 ;
+
+$calc3 = 0 ;
+
+$calc4 = 0 ;
+
+$calc5 = 0 ;
+
+$calc6 = 0 ;
+
+$calc7 = 0 ;
+
+$calc8 = 0 ;
+
+$calc9 = 0 ;
+
+$calc10 = 0 ;
+
+$calc11 = 0 ;
+
+$calc12 = 0 ;
+
+$calc13 = 0 ;
+
+$calc14 = 0 ;
+
+$calc15 = 0 
+
+ 
+
+ 
+
+if ($q1t1 == $rq1t1 OR $q1t1 == $rq2t1 OR $q1t1 == $rq3t1 OR $q1t1 == $rq4t1 OR $q1t1 == $rd1t1 OR $q1t1 == $rd2t1 OR $q1t1 == $rf1t1 OR $q1t1 == $rv1t1)
+
+ 
+
+{
+
+$calc1 = 1
+
+}
+
+ 
+
+if ($q2t1 == $rq1t1 OR $q2t1 == $rq2t1 OR $q2t1 == $rq3t1 OR $q2t1 == $rq4t1 OR $q2t1 == $rd1t1 OR $q2t1 == $rd2t1 OR $q2t1 == $rf1t1 OR $q2t1 == $rv1t1)
+
+ 
+
+{
+
+$calc2 = 1
+
+}
+
+ 
+
+if ($q3t1 == $rq1t1 OR $q3t1 == $rq2t1 OR $q3t1 == $rq3t1 OR $q3t1 == $rq4t1 OR $q3t1 == $rd1t1 OR $q3t1 == $rd2t1 OR $q3t1 == $rf1t1 OR $q3t1 == $rv1t1)
+
+ 
+
+{
+
+$calc3 = 1
+
+}
+
+ 
+
+if ($q4t1 == $rq1t1 OR $q4t1 == $rq2t1 OR $q4t1 == $rq3t1 OR $q4t1 == $rq4t1 OR $q4t1 == $rd1t1 OR $q4t1 == $rd2t1 OR $q4t1 == $rf1t1 OR $q4t1 == $rv1t1)
+
+ 
+
+{
+
+$calc4 = 1
+
+}
+
+ 
+
+if ($d1t1 == $rq1t1 OR $d1t1 == $rq2t1 OR $d1t1 == $rq3t1 OR $d1t1 == $rq4t1 OR $d1t1 == $rd1t1 OR $d1t1 == $rd2t1 OR $d1t1 == $rf1t1 OR $d1t1 == $rv1t1)
+
+ 
+
+{
+
+$calc5 = 1
+
+}
+
+ 
+
+if ($d2t1 == $rq1t1 OR $d2t1 == $rq2t1 OR $d2t1 == $rq3t1 OR $d2t1 == $rq4t1 OR $d2t1 == $rd1t1 OR $d2t1 == $rd2t1 OR $d2t1 == $rf1t1 OR $d2t1 == $rv1t1)
+
+ 
+
+{
+
+$calc6 = 1
+
+}
+
+ 
+
+if ($f1t1 == $rq1t1 OR $f1t1 == $rq2t1 OR $f1t1 == $rq3t1 OR $f1t1 == $rq4t1 OR $f1t1 == $rd1t1 OR $f1t1 == $rd2t1 OR $f1t1 == $rf1t1 OR $f1t1 == $rv1t1)
+
+ 
+
+{
+
+$calc7 = 1
+
+}
+
+ 
+
+if ($v1t1 == $rq1t1 OR $v1t1 == $rq2t1 OR $v1t1 == $rq3t1 OR $v1t1 == $rq4t1 OR $v1t1 == $rd1t1 OR $v1t1 == $rd2t1 OR $v1t1 == $rf1t1 OR $v1t1 == $rv1t1)
+
+ 
+
+{
+
+$calc8 = 1
+
+}
+
+ 
+
+if ($d1t1 == $rd1t1 OR $d1t1 == $rd2t1 OR $d1t1 == $rf1t1 OR $d1t1 == $rv1t1)
+
+ 
+
+{
+
+$calc9 = 2
+
+}
+
+ 
+
+if ($d2t1 == $rd1t1 OR $d2t1 == $rd2t1 OR $d2t1 == $rf1t1 OR $d2t1 == $rv1t1)
+
+ 
+
+{
+
+$calc10 = 2
+
+}
+
+ 
+
+ 
+
+ 
+
+if ($f1t1 == $rd1t1 OR $f1t1 == $rd2t1 OR $f1t1 == $rf1t1 OR $f1t1 == $rv1t1)
+
+ 
+
+{
+
+$calc11 = 2
+
+}
+
+ 
+
+if ($v1t1 == $rd1t1 OR $v1t1 == $rd2t1 OR $v1t1 == $rf1t1 OR $v1t1 == $rv1t1)
+
+ 
+
+{
+
+$calc12 = 2
+
+}
+
+ 
+
+if ($f1t1 == $rf1t1 OR $f1t1 == $rv1t1)
+
+ 
+
+{
+
+$calc13 = 3
+
+}
+
+ 
+
+if ($v1t1 == $rf1t1 OR $v1t1 == $rv1t1)
+
+ 
+
+{
+
+$calc14 = 3
+
+}
+
+ 
+
+if ($v1t1 == $rv1t1)
+
+ 
+
+{
+
+$calc15 = 5
+
+}
+
+ 
+
+$ptt1 = $calc1 + calc2 + $calc3 + $calc4 + $calc5 + $calc6 + $calc7 + $calc8 + $calc9 + $calc10 + $calc11 + $calc12 + $calc13 + $calc14 + $calc15

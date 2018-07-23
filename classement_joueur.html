@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Site de pari sportif sur le tennis. De plus, vous pouvez participer au tournoi de pari afin de savoir qui est le meilleur sur toute la saison.">
+    <meta name="author" content="Jérémy Hainselin & David Courtin">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+    <link rel="icon" type="image/png" href="img/favicon.gif"/>
+	<link rel="stylesheet" href="css/style.css">
+    <link href="css/mobile.css" rel="stylesheet" media="screen and (max-width: 599px)" type="text/css" />
+<title>Tennis Challenge</title>
+</head>
+
+<body>
+<header>
+<div class="col_g">
+		<!--logo-->
+        <a href="index.html"><img src="img/logo.png" alt="logo" id="logo"></a>
+        
+        <!--titre + bannière-->
+        <h1 id="titre"> TENNIS CHALLENGE</h1>
+</div>
+<div class="col_c">
+	<div class="topnav">
+  <a class="active" href="#home">Classement ATC</a>
+  <a href="classement_joueur.html">Classement Joueurs</a>
+  <a href="#contact">Règlement</a>
+  <a href="tournois.html">Tournois</a>
+  <div class="topnav-right">
+    <a href="inscription.html">Inscription</a>
+    <a href="#about">Connexion</a>
+  </div>
+	</div>
+</div>
+</header>
+
+<h2>ATP Rankings</h2>
+<h3>Date du jour</h3>
+
+<div class="main">
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> 1 -10</button>
+  <button class="btn" onclick="filterSelection('nature')"> 11 - 20</button>
+  <button class="btn" onclick="filterSelection('cars')"> 21 - 30</button>
+  <button class="btn" onclick="filterSelection('people')"> 31 - 40</button>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="img/R_federer.jpg" alt="Roger Federer" class="photo">
+      <h3>Roger Federer</h3>
+      <table>
+		<tr>
+			<th>Pays</th>
+			<td>Suisse</td>
+		</tr>
+		<tr>
+			<th>Age</th>
+			<td>36 ans</td>
+		</tr>
+		<tr>
+			<th>Date de naissance</th>
+			<td>08 août 1981</td>
+		</tr>
+		<tr>
+			<th>Lieu de naissance</th>
+			<td>Bâle</td>
+		</tr>
+		<tr>
+			<th>Taille</th>
+			<td>1m85</td>
+		</tr>
+		<tr>
+			<th>Poids</th>
+			<td>85 kg</td>
+		</tr>
+		<tr>
+			<th>Début pro</th>
+			<td>1998</td>
+		</tr>
+		<tr>
+			<th>Jeu</th>
+			<td>Droitier, revers à une main</td>
+		</tr>
+	  </table>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="img/Nadal.jpg" alt="Rafael Nadal" class="photo">
+      <h3>Rafael Nadal</h3>
+      <table>
+		<tr>
+			<th>Pays</th>
+			<td>Espagne</td>
+		</tr>
+		<tr>
+			<th>Age</th>
+			<td>31 ans</td>
+		</tr>
+		<tr>
+			<th>Date de naissance</th>
+			<td>03 juin 1986</td>
+		</tr>
+		<tr>
+			<th>Lieu de naissance</th>
+			<td>Manacor</td>
+		</tr>
+		<tr>
+			<th>Taille</th>
+			<td>1m85</td>
+		</tr>
+		<tr>
+			<th>Poids</th>
+			<td>85 kg</td>
+		</tr>
+		<tr>
+			<th>Début pro</th>
+			<td>2001</td>
+		</tr>
+		<tr>
+			<th>Jeu</th>
+			<td>Gaucher, revers à deux mains</td>
+		</tr>
+	  </table>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="img/A_zverev.jpg" alt="Alexander Zverev" class="photo">
+      <h3>Alexander Zverev</h3>
+      <table>
+		<tr>
+			<th>Pays</th>
+			<td>Allemagne</td>
+		</tr>
+		<tr>
+			<th>Age</th>
+			<td>21 ans</td>
+		</tr>
+		<tr>
+			<th>Date de naissance</th>
+			<td>20 avril 1997</td>
+		</tr>
+		<tr>
+			<th>Lieu de naissance</th>
+			<td>Hambourg</td>
+		</tr>
+		<tr>
+			<th>Taille</th>
+			<td>1m98</td>
+		</tr>
+		<tr>
+			<th>Poids</th>
+			<td>86 kg</td>
+		</tr>
+		<tr>
+			<th>Début pro</th>
+			<td>2013</td>
+		</tr>
+		<tr>
+			<th>Jeu</th>
+			<td>Droitier, revers à deux mains</td>
+		</tr>
+	  </table>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="img/Grigor_Dimitrov.jpg" alt="Grigor Dimitrov" class="photo">
+      <h3>Grigor Dimitrov</h3>
+      <table>
+		<tr>
+			<th>Pays</th>
+			<td>Bulgare</td>
+		</tr>
+		<tr>
+			<th>Age</th>
+			<td>27 ans</td>
+		</tr>
+		<tr>
+			<th>Date de naissance</th>
+			<td>26 mai 1991</td>
+		</tr>
+		<tr>
+			<th>Lieu de naissance</th>
+			<td>Haskovo</td>
+		</tr>
+		<tr>
+			<th>Taille</th>
+			<td>1m88</td>
+		</tr>
+		<tr>
+			<th>Poids</th>
+			<td>77 kg</td>
+		</tr>
+		<tr>
+			<th>Début pro</th>
+			<td>2008</td>
+		</tr>
+		<tr>
+			<th>Jeu</th>
+			<td>Droitier, revers à une main</td>
+		</tr>
+	  </table>
+    </div>
+  </div>
+  
+    <div class="column">
+    <div class="content">
+      <img src="img/cilic.jpg" alt="Grigor Dimitrov" class="photo">
+      <h3>Marin Cilic</h3>
+      <table>
+		<tr>
+			<th>Pays</th>
+			<td>Croatie</td>
+		</tr>
+		<tr>
+			<th>Age</th>
+			<td>29 ans</td>
+		</tr>
+		<tr>
+			<th>Date de naissance</th>
+			<td>28 septembre 1988</td>
+		</tr>
+		<tr>
+			<th>Lieu de naissance</th>
+			<td>Medjugorje</td>
+		</tr>
+		<tr>
+			<th>Taille</th>
+			<td>1m98</td>
+		</tr>
+		<tr>
+			<th>Poids</th>
+			<td>82 kg</td>
+		</tr>
+		<tr>
+			<th>Début pro</th>
+			<td>2005</td>
+		</tr>
+		<tr>
+			<th>Jeu</th>
+			<td>Droitier, revers à deux mains</td>
+		</tr>
+	  </table>
+    </div>
+  </div>
+  
+    <div class="column">
+    <div class="content">
+      <img src="img/Del_Potro.jpg" alt="Grigor Dimitrov" class="photo">
+      <h3>Juan Martin Del Potro</h3>
+      <table>
+		<tr>
+			<th>Pays</th>
+			<td>Argentine</td>
+		</tr>
+		<tr>
+			<th>Age</th>
+			<td>29 ans</td>
+		</tr>
+		<tr>
+			<th>Date de naissance</th>
+			<td>23 septembre 1988</td>
+		</tr>
+		<tr>
+			<th>Lieu de naissance</th>
+			<td>Tandil</td>
+		</tr>
+		<tr>
+			<th>Taille</th>
+			<td>1m98</td>
+		</tr>
+		<tr>
+			<th>Poids</th>
+			<td>83 kg</td>
+		</tr>
+		<tr>
+			<th>Début pro</th>
+			<td>2005</td>
+		</tr>
+		<tr>
+			<th>Jeu</th>
+			<td>Droitier, revers à deux mains</td>
+		</tr>
+	  </table>
+    </div>
+  </div>
+  
+    <div class="column">
+    <div class="content">
+      <img src="img/Anderson.jpg" alt="Grigor Dimitrov" class="photo">
+      <h3>Kévin Anderson</h3>
+      <table>
+		<tr>
+			<th>Pays</th>
+			<td>Afrique du Sud</td>
+		</tr>
+		<tr>
+			<th>Age</th>
+			<td>32 ans</td>
+		</tr>
+		<tr>
+			<th>Date de naissance</th>
+			<td>18 mai 1986</td>
+		</tr>
+		<tr>
+			<th>Lieu de naissance</th>
+			<td>Johannesburg</td>
+		</tr>
+		<tr>
+			<th>Taille</th>
+			<td>2m03</td>
+		</tr>
+		<tr>
+			<th>Poids</th>
+			<td>77 kg</td>
+		</tr>
+		<tr>
+			<th>Début pro</th>
+			<td>2007</td>
+		</tr>
+		<tr>
+			<th>Jeu</th>
+			<td>Droitier, revers à deux mains</td>
+		</tr>
+	  </table>
+    </div>
+  </div>
+  
+    <div class="column">
+    <div class="content">
+      <img src="img/Thiem.jpg" alt="Grigor Dimitrov" class="photo">
+      <h3>Dominique Thiem</h3>
+      <table>
+		<tr>
+			<th>Pays</th>
+			<td>Autriche</td>
+		</tr>
+		<tr>
+			<th>Age</th>
+			<td>24 ans</td>
+		</tr>
+		<tr>
+			<th>Date de naissance</th>
+			<td>03 septembre 1993</td>
+		</tr>
+		<tr>
+			<th>Lieu de naissance</th>
+			<td>Wiener Neustadt</td>
+		</tr>
+		<tr>
+			<th>Taille</th>
+			<td>1m85</td>
+		</tr>
+		<tr>
+			<th>Poids</th>
+			<td>79 kg</td>
+		</tr>
+		<tr>
+			<th>Début pro</th>
+			<td></td>
+		</tr>
+		<tr>
+			<th>Jeu</th>
+			<td>Droitier, revers à une main</td>
+		</tr>
+	  </table>
+    </div>
+  </div>
+  
+    <div class="column">
+    <div class="content">
+      <img src="img/Isner.jpg" alt="Grigor Dimitrov" class="photo">
+      <h3>John Isner</h3>
+      <table>
+		<tr>
+			<th>Pays</th>
+			<td>Bulgare</td>
+		</tr>
+		<tr>
+			<th>Age</th>
+			<td>27 ans</td>
+		</tr>
+		<tr>
+			<th>Date de naissance</th>
+			<td>26 mai 1991</td>
+		</tr>
+		<tr>
+			<th>Lieu de naissance</th>
+			<td>Haskovo</td>
+		</tr>
+		<tr>
+			<th>Taille</th>
+			<td>1m88</td>
+		</tr>
+		<tr>
+			<th>Poids</th>
+			<td>77 kg</td>
+		</tr>
+		<tr>
+			<th>Début pro</th>
+			<td>2008</td>
+		</tr>
+		<tr>
+			<th>Jeu</th>
+			<td>Droitier, revers à deux mains</td>
+		</tr>
+	  </table>
+    </div>
+  </div>
+  
+    <div class="column">
+    <div class="content">
+      <img src="img/Goffin.jpg" alt="Grigor Dimitrov" class="photo">
+      <h3>David Goffin</h3>
+      <table>
+		<tr>
+			<th>Pays</th>
+			<td>Belgique</td>
+		</tr>
+		<tr>
+			<th>Age</th>
+			<td>27 ans</td>
+		</tr>
+		<tr>
+			<th>Date de naissance</th>
+			<td>26 mai 1991</td>
+		</tr>
+		<tr>
+			<th>Lieu de naissance</th>
+			<td>Haskovo</td>
+		</tr>
+		<tr>
+			<th>Taille</th>
+			<td>1m88</td>
+		</tr>
+		<tr>
+			<th>Poids</th>
+			<td>77 kg</td>
+		</tr>
+		<tr>
+			<th>Début pro</th>
+			<td>2008</td>
+		</tr>
+		<tr>
+			<th>Jeu</th>
+			<td>Droitier, revers à deux mains</td>
+		</tr>
+	  </table>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+</body>
+</html>
